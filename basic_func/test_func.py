@@ -48,3 +48,4 @@ def test_greet():
     assert "안녕하신가 낯선자!" == greet()
     assert "안녕하십니까 마법사!" == greet(이름="마법사", 나이=50)
     assert "안녕 낯선자!" == greet(나이=4)
+    
